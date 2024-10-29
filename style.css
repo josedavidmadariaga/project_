@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+}
+
+img {
+    max-width: 40%;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: 300px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 50px 0 0 0;
+    background-color: rgba(255, 255, 255, 0.808);
+}
+
+.menu {
+    position: absolute;
+    top: 0 ;
+    left: 0 ;
+    right: 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #e22717;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'bebas neue', sans-serif;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    font-size: 17px;
+    padding: 20px;
+    color: #040100;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #e22717;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-txt {
+    flex-basis: 90%;
+}
+
+.header-txt h1 {
+    font-size: 40px;
+    line-height: 1;
+    color: #040100;
+font-family: 'bebas neue', sans-serif;
+margin-bottom: 15px;
+}
+
+p {
+    color: #040100;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 13px 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #e22717;
+    border-radius: 25px;
+}
+
+.btn-1:hover {
+    background-color: #040100;
+}
+
+.heaser-img {
+    flex-basis: 50%;
+}
+
+.header-img img {
+    width: 500px;
+}
+
+.information {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.808);
+}
+
+.information-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information-box {
+    flex-basis: 1200px;
+}
+
+.card-1 {
+    flex-basis: calc(50% - 100px);
+    background-color: rgba(255, 255, 255, 0.345);
+    border-radius: 25px;
+    margin-right: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-1 img {
+    width: 150px;
+    margin-top:  -70px;
+}
+
+.card-1 h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #040100;
+}
+
+.card-1 p {
+    margin-bottom: 10px;
+}
+
+.card-1 span {
+    color: #e22717;
+    font-weight: 700;
+}
+
+.information-txt {
+    flex-flow: 50%;
+}
+
+.general-img {
+    font-size: 50px;
+}
+
+h2 {
+    color: #040100;
+    font-size:  40px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.general {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.808);
+}
+
+.general-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0px;
+}
+
+.general-txt {
+    flex-flow: 50%;
+    margin-left: 1px;
+}
+
+.general-img {
+    text-align: center;
+    flex-basis: 90px;
+    flex-direction: row-reverse;
+}
+
+.container-chepe {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes-quimica {
+    width: 200px;
+    line-height: 3;
+}
+
+.container-pepe {
+    display: flex;
+    justify-content: center;
+}
+
+.img-pepe {
+    width: 200px;
+}
+.container-encontrar{
+    text-align: center;
+}
+.encontrar-reloj {
+    width: 500px;
+    margin-right: 50px;
+}
+
+.container-ciencias{
+    text-align: center;
+}
+.img-ciencias {
+    width: 500px;
+    
+}
+.container-ciencia {
+    text-align: center;
+}
+.img-ciencia {
+    width: 500px;
+    
+}
+.information-content-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.information-box-1 {
+    flex-basis: 1200px; 
+} 
+.general-img-1 {
+    text-align: center;
+    flex-basis: 90px;
+    flex-direction: row-reverse;
+}
